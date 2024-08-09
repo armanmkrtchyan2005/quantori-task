@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+:root {
+	--container-max-width: 1268px;
+	--header-height: 80px;
+}
+
+/* @media screen and (max-width: 576px) {
+	:root {
+		--container-max-width: 576px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	:root {
+		--container-max-width: 576px;
+	}
+} */
+
+@media screen and (min-width: 768px) {
+	:root {
+		--container-max-width: 768px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	:root {
+		--container-max-width: 992px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	:root {
+		--container-max-width: 1200px;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	:root {
+		--container-max-width: 1268px;
+	}
+}
+
+a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.container {
+	max-width: var(--container-max-width);
+	margin: 0 auto;
+}
+
+.main-container {
+	padding-top: var(--header-height);
+	max-width: var(--container-max-width);
+	margin: 0 auto;
+}
+
+.error-text {
+	color: red;
+	font-size: 12px;
+}

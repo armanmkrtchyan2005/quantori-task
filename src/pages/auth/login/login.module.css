@@ -1,0 +1,34 @@
+.loginPage {
+	width: 100%;
+	height: 100vh;
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-container {
+	width: 100%;
+	max-width: 300px;
+	background-color: white;
+	padding: 18px;
+	border-radius: 12px;
+}
+
+.login-header h1 {
+	font-size: 24px;
+	color: #66837e;
+}
+
+.login-content {
+	margin-block: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.login-footer {
+	display: flex;
+	justify-content: flex-end;
+	gap: 12px;
+}

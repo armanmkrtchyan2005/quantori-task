@@ -1,0 +1,33 @@
+.button {
+	--btn-bg-color: #66837e;
+	--btn-text-color: white;
+	--btn-border-color: #66837e;
+	border: none;
+	outline: none;
+	border-color: var(--btn-border-color);
+	background-color: var(--btn-bg-color);
+	padding: 10px 15px;
+	color: var(--btn-text-color);
+	border-radius: 5px;
+	transition: 150ms ease 0s;
+}
+
+.button.filled {
+	--btn-bg-color: #66837e;
+}
+
+.button.filled:hover {
+	--btn-bg-color: #57726d;
+}
+
+.button.outline {
+	--btn-bg-color: none;
+	--btn-text-color: #66837e;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.button.outline:hover {
+	--btn-bg-color: #66837e;
+	--btn-text-color: white;
+}

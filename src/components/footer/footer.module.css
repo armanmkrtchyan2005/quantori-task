@@ -1,0 +1,12 @@
+.footer-container {
+	background-color: #36485e;
+	padding: 4px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-container div {
+	text-align: right;
+	color: white;
+}
